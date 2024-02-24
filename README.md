@@ -10,7 +10,7 @@ In the EDA section, we delve deep into the dataset, examining various aspects of
 Our recommender system is designed to curate personalized genre recommendations tailored to individual mental health needs. By leveraging machine learning algorithms and user preferences, we offer genre recommendations that aim to improve listeners' mental well-being.
 
 ### Decision Tree Classifier
-The Decision Tree classifier predicts the effect of music on mental health outcomes, categorizing the listeners by the effects that listening to music had on their mental health: whether it improved, worsened, or there was no effect. This model provides valuable insights into the potential therapeutic impact of different music genres on mental well-being.
+The Decision Tree classifier predicts the effect of music on mental health outcomes, categorizing the listeners by the effects that listening to music had on their mental health: whether it improved, worsened, or there was no effect. This model provides valuable insights into the potential therapeutic impact of different music genres on mental well-being. Using SelectKBest with ANOVA F-value scoring function to select the top K features that are most relevant to predicting the target variable. In context, this means selecting the top three features that are most relevant to predicting whether music improved, worsened, or did not affect a user's mental health. 
 
 ### Listener Segmentation
 Using Principal Component Analysis (PCA) and k-means clustering, we segment listeners into distinct groups based on their music preferences and mental health indicators. This analysis enables us to identify patterns and trends among listeners, facilitating targeted interventions and personalized recommendations.
